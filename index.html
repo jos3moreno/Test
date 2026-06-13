@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jose Moreno Reyes — Cybersecurity Analyst</title>
+<meta name="description" content="Portfolio of Jose Moreno Reyes — SOC operations, detection engineering, and NIST RMF compliance. Home of the corp.lab SOC homelab." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 6 88 22v26c0 26-17 40-38 46C29 88 12 74 12 48V22Z' fill='%235CC8FF'/%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<a class="skip" href="#about">Skip to content</a>
+
+<aside class="sidebar" aria-label="Site navigation">
+  <div class="brand"><span class="dot" aria-hidden="true"></span>jmr<small>@corp.lab</small></div>
+  <nav class="nav" id="nav">
+    <a href="#about">About</a>
+    <a href="#resume">Resume</a>
+    <a href="#projects">Projects</a>
+    <a href="#writeups">Writeups</a>
+    <a href="#certifications">Certs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="sys" aria-hidden="true">
+    <div class="row"><span>LAB STATUS</span><span class="ok">● OPERATIONAL</span></div>
+    <div class="row"><span>LOCAL TIME</span><span id="clock">--:--:--</span></div>
+    <div class="row"><span>LOCATION</span><span>SAN DIEGO, CA</span></div>
+  </div>
+</aside>
+
+<main class="main">
+  <div class="wrap">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-grid">
+        <div>
+          <p class="kicker">// Junior Cybersecurity Analyst</p>
+          <h1>Jose Moreno Reyes</h1>
+          <p class="tagline">I build and defend a live Active Directory environment — running SOC operations, detection engineering, and NIST RMF compliance in a homelab treated like production.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View projects</a>
+            <!-- EDIT: drop your resume PDF at assets/Jose-Moreno-Reyes-Resume.pdf -->
+            <a class="btn" href="assets/Jose-Moreno-Reyes-Resume.pdf" download>Download resume</a>
+          </div>
+          <div class="meta-line">
+            <span>San Diego, CA</span>
+            <span><a href="https://www.linkedin.com/in/jmorenoreyes" rel="noopener" target="_blank">LinkedIn</a></span>
+            <span><a href="https://github.com/jos3moreno" rel="noopener" target="_blank">GitHub</a></span>
+          </div>
+        </div>
+
+        <div class="term" aria-label="Terminal introduction">
+          <div class="term-bar" aria-hidden="true"><i></i><i></i><i></i><span>jmr@corp.lab:~</span></div>
+          <div class="term-body" id="termBody">
+            <div class="t-line"><span class="t-prompt">$ </span><span class="t-cmd">whoami</span></div>
+            <div class="t-line t-out">jose.moreno — junior cybersecurity analyst</div>
+            <div class="t-line"><span class="t-prompt">$ </span><span class="t-cmd">cat focus.txt</span></div>
+            <div class="t-line t-out">SOC operations · detection engineering · NIST RMF</div>
+            <div class="t-line"><span class="t-prompt">$ </span><span class="t-cmd">./labstatus --env corp.lab</span></div>
+            <div class="t-line t-out"><span class="t-ok">[ OPERATIONAL ]</span> 7 VMs · <span class="t-accent">Wazuh SIEM</span> · OPNsense gateway</div>
+            <div class="t-line"><span class="t-prompt">$ </span><span class="caret" aria-hidden="true"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about">
+      <p class="eyebrow">01 · About</p>
+      <h2>Defense in depth, learned hands-on</h2>
+      <div class="about-grid">
+        <div class="panel">
+          <p>I'm a cybersecurity student at <strong>Cal State San Marcos</strong> working as a <strong>Junior Cybersecurity Analyst</strong>, focused on the blue-team side of the house: SOC operations, detection engineering, and governance under the <strong>NIST Risk Management Framework</strong>.</p>
+          <p style="margin-top:.9rem">Rather than collecting tutorials, I run <strong>corp.lab</strong> — a segmented Active Directory environment behind a real OPNsense gateway — where I execute full security cycles: credentialed vulnerability scanning, POA&amp;M-tracked remediation, STIG hardening, and attack simulations detected end-to-end in Wazuh.</p>
+          <p style="margin-top:.9rem">The goal is simple: every claim on this page maps to an artifact — a scan report, a GPO, a detection rule, or a checklist.</p>
+        </div>
+        <div class="panel">
+          <ul class="fact-list">
+            <li><span class="k">Role</span><span class="v">Jr. Cybersecurity Analyst</span></li>
+            <li><span class="k">Education</span><span class="v">Cybersecurity, CSUSM</span></li>
+            <li><span class="k">Focus</span><span class="v">SOC · Detection · RMF</span></li>
+            <li><span class="k">Frameworks</span><span class="v">NIST SP 800-53 / 800-37</span></li>
+            <li><span class="k">Base</span><span class="v">San Diego, CA</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESUME ============ -->
+    <section id="resume">
+      <p class="eyebrow">02 · Resume</p>
+      <h2>Resume</h2>
+      <div class="panel resume-panel">
+        <div>
+          <p>Full work history, education, and lab documentation in one PDF.</p>
+          <div class="hl-row">
+            <span class="tag">Vulnerability Management</span>
+            <span class="tag">SIEM / Wazuh</span>
+            <span class="tag">NIST RMF</span>
+            <span class="tag">STIG Hardening</span>
+            <span class="tag">Active Directory</span>
+          </div>
+        </div>
+        <!-- EDIT: drop your resume PDF at assets/Jose-Moreno-Reyes-Resume.pdf -->
+        <a class="btn primary" href="assets/Jose-Moreno-Reyes-Resume.pdf" download>Download PDF ↓</a>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects">
+      <p class="eyebrow">03 · Cybersecurity Projects</p>
+      <h2>SOC Homelab — corp.lab</h2>
+
+      <!-- Featured: the lab itself -->
+      <article class="panel featured">
+        <div class="feat-head">
+          <div>
+            <h3>corp.lab — enterprise network in miniature</h3>
+            <p style="font-size:.9rem; margin-top:.3rem">A 7-VM Active Directory domain on VirtualBox, segmented behind an OPNsense firewall acting as the true gateway — giving real traffic enforcement and IDS visibility between every host.</p>
+          </div>
+          <span class="pill op">Operational</span>
+        </div>
+
+        <div class="topology" role="img" aria-label="Network topology: OPNsense gateway at 10.0.42.1 routing to DC01, WS01, SIEM01, TOOLS01, VULN01 and Kali on the 10.0.42.0/24 subnet">
+<pre>
+WAN ──[ <span class="n">OPNsense</span> <span class="ip">10.0.42.1</span> ]──┬── <span class="n">DC01</span>    <span class="ip">.10</span>  <span class="r">AD DS / DNS — corp.lab</span>
+                                 ├── <span class="n">WS01</span>    <span class="ip">.20</span>  <span class="r">Win11 domain workstation</span>
+                                 ├── <span class="n">SIEM01</span>  <span class="ip">.40</span>  <span class="r">Wazuh manager</span>
+                                 ├── <span class="n">TOOLS01</span> <span class="ip">.8</span>   <span class="r">Nessus Essentials</span>
+                                 ├── <span class="n">VULN01</span>  <span class="ip">.60</span>  <span class="r">vulnerable target (Win10)</span>
+                                 └── <span class="n">KALI</span>    <span class="ip">.7</span>   <span class="r">attack simulation</span>
+</pre>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><b>7</b><span>VMs / hosts</span></div>
+          <div class="stat"><b>262</b><span>STIG rules reviewed</span></div>
+          <div class="stat"><b>2 / 2</b><span>POA&amp;M items closed</span></div>
+          <div class="stat"><b>3.2×</b><span>findings w/ cred. scans</span></div>
+        </div>
+      </article>
+
+      <!-- Case studies -->
+      <div class="grid-3" style="margin-top:1.2rem">
+        <article class="panel case">
+          <div class="case-top">
+            <h3>RMF Vulnerability Management Cycle</h3>
+            <span class="pill val">Validated</span>
+          </div>
+          <p>A complete assess → remediate → validate loop run the way a DoD program would.</p>
+          <ul>
+            <li>Credentialed Nessus scans via a dedicated <code style="font-family:var(--mono);font-size:.78rem">svc-nessus</code> service account</li>
+            <li>Two High findings tracked in a POA&amp;M — CVE-2013-3900 (WinVerifyTrust) and an SQLite disclosure</li>
+            <li>Remediated via GPO "CM-06 WinVerifyTrust Hardening" pushing EnableCertPaddingCheck to both registry paths</li>
+            <li>Closure proven with rescans, documented in corp.lab_POAM.xlsx</li>
+          </ul>
+          <div class="tags"><span class="tag">Nessus</span><span class="tag">POA&amp;M</span><span class="tag">GPO</span><span class="tag">SP 800-53</span></div>
+        </article>
+
+        <article class="panel case">
+          <div class="case-top">
+            <h3>Detection Engineering &amp; Attack Sims</h3>
+            <span class="pill op">Operational</span>
+          </div>
+          <p>Adversary techniques executed from Kali and caught in the SIEM, end to end.</p>
+          <ul>
+            <li>Wazuh agents on DC01, WS01, SIEM01, VULN01 + Sysmon (SwiftOnSecurity config)</li>
+            <li>RDP brute force with Hydra → Event ID 4625 alert chain</li>
+            <li>Kerberoasting with Impacket against a service account</li>
+            <li>Nmap AD fingerprinting picked up as recon activity</li>
+          </ul>
+          <div class="tags"><span class="tag">T1110</span><span class="tag">T1558.003</span><span class="tag">T1046</span><span class="tag">Wazuh</span><span class="tag">Sysmon</span></div>
+        </article>
+
+        <article class="panel case">
+          <div class="case-top">
+            <h3>STIG Hardening Baseline</h3>
+            <span class="pill prog">In&nbsp;progress</span>
+          </div>
+          <p>Windows 11 STIG V2R7 applied and tracked in STIG Viewer like a real ATO package.</p>
+          <ul>
+            <li>262-rule checklist loaded in STIG Viewer 3.7</li>
+            <li>Cat III manual baseline completed on WS01</li>
+            <li>Pro-edition WMI filter limitation documented as a formal deviation — not hidden</li>
+            <li>Next: Cat II coverage and SCAP-automated checks</li>
+          </ul>
+          <div class="tags"><span class="tag">STIG V2R7</span><span class="tag">SCAP</span><span class="tag">Deviation mgmt</span></div>
+        </article>
+      </div>
+
+      <!-- Tools -->
+      <h2 style="margin-top:3rem">Tools Used</h2>
+      <div class="panel">
+        <div class="tools-grid">
+          <div class="tool-group">
+            <h4>SIEM &amp; Detection</h4>
+            <div class="chips">
+              <span class="chip">Wazuh</span>
+              <span class="chip">Sysmon</span>
+              <span class="chip">Windows Event Logs</span>
+              <span class="chip">Suricata<em>planned</em></span>
+            </div>
+          </div>
+          <div class="tool-group">
+            <h4>Vulnerability &amp; Compliance</h4>
+            <div class="chips">
+              <span class="chip">Nessus Essentials</span>
+              <span class="chip">STIG Viewer 3.7</span>
+              <span class="chip">SCAP</span>
+              <span class="chip">POA&amp;M tracking</span>
+            </div>
+          </div>
+          <div class="tool-group">
+            <h4>Offense / Simulation</h4>
+            <div class="chips">
+              <span class="chip">Kali Linux</span>
+              <span class="chip">Hydra</span>
+              <span class="chip">Impacket</span>
+              <span class="chip">Nmap</span>
+            </div>
+          </div>
+          <div class="tool-group">
+            <h4>Infrastructure</h4>
+            <div class="chips">
+              <span class="chip">OPNsense</span>
+              <span class="chip">VirtualBox</span>
+              <span class="chip">Active Directory / GPO</span>
+              <span class="chip">PowerShell</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WRITEUPS ============ -->
+    <section id="writeups">
+      <p class="eyebrow">04 · Writeups</p>
+      <h2>Lab notes &amp; writeups</h2>
+      <div class="grid-3">
+        <!-- EDIT: point each card's link at your published writeup (GitHub README, blog post, etc.) -->
+        <article class="panel case writeup">
+          <span class="id">WR-001</span>
+          <h3><a href="#">Detecting RDP Brute Force with Wazuh: from Hydra to Event ID 4625</a></h3>
+          <p>Building the alert chain — log sources, rule logic, and tuning out the noise.</p>
+          <div class="foot"><span class="pill prog">Draft</span><span class="read">Read →</span></div>
+        </article>
+        <article class="panel case writeup">
+          <span class="id">WR-002</span>
+          <h3><a href="#">Remediating CVE-2013-3900 with Group Policy — a full RMF loop</a></h3>
+          <p>From High finding to GPO deployment to rescan-validated closure in the POA&amp;M.</p>
+          <div class="foot"><span class="pill prog">Draft</span><span class="read">Read →</span></div>
+        </article>
+        <article class="panel case writeup">
+          <span class="id">WR-003</span>
+          <h3><a href="#">Kerberoasting the lab: attack and detection with Impacket + Sysmon</a></h3>
+          <p>Requesting service tickets, cracking offline, and what the defender actually sees.</p>
+          <div class="foot"><span class="pill prog">Draft</span><span class="read">Read →</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS ============ -->
+    <section id="certifications">
+      <p class="eyebrow">05 · Certifications</p>
+      <h2>Certifications</h2>
+      <div class="panel cert">
+        <div class="info">
+          <h3>CompTIA CySA+</h3>
+          <p>Cybersecurity Analyst — threat detection, vulnerability management, incident response.</p>
+        </div>
+        <span class="pill prog">In progress · 2026</span>
+      </div>
+      <!-- EDIT: duplicate the block above for each earned cert and switch the pill class to "val", e.g.:
+      <div class="panel cert" style="margin-top:1.2rem">
+        <div class="info"><h3>CompTIA Security+</h3><p>Earned 20XX.</p></div>
+        <span class="pill val">Certified</span>
+      </div>
+      -->
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact">
+      <p class="eyebrow">06 · Contact</p>
+      <h2>Get in touch</h2>
+      <div class="contact-grid">
+        <div class="panel contact-card">
+          <span class="k">Email</span>
+          <!-- EDIT: replace with your real email -->
+          <a href="mailto:your-email@example.com">your-email@example.com</a>
+        </div>
+        <div class="panel contact-card">
+          <span class="k">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/jmorenoreyes" rel="noopener" target="_blank">in/jmorenoreyes</a>
+        </div>
+        <div class="panel contact-card">
+          <span class="k">GitHub</span>
+          <a href="https://github.com/jos3moreno" rel="noopener" target="_blank">@jos3moreno</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>© 2026 Jose Moreno Reyes</span>
+      <span>corp.lab // all findings remediated &amp; validated</span>
+    </footer>
+  </div>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
